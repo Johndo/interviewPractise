@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C804993255AE62100B3A216 /* 10-11-2020-1(Maximum Difference Between Node and Ancestor).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C804991255AE62100B3A216 /* 10-11-2020-1(Maximum Difference Between Node and Ancestor).cpp */; };
+		8C804996255B23AA00B3A216 /* Kids With the Greatest Number of Candies(1431).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C804995255B23AA00B3A216 /* Kids With the Greatest Number of Candies(1431).cpp */; };
+		8C804998255B25AE00B3A216 /* How Many Numbers Are Smaller Than the Current Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C804997255B25AE00B3A216 /* How Many Numbers Are Smaller Than the Current Number.cpp */; };
+		8C80499A255B30A700B3A216 /* Split a String in Balanced Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C804999255B30A700B3A216 /* Split a String in Balanced Strings.cpp */; };
+		8C80499C255B349000B3A216 /* Minimum Time Visiting All Points.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C80499B255B349000B3A216 /* Minimum Time Visiting All Points.cpp */; };
+		8C80499E255B487800B3A216 /* Squares of a Sorted Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C80499D255B487800B3A216 /* Squares of a Sorted Array.cpp */; };
+		8C8049A0255B4B3C00B3A216 /* Reverse Words in a String III.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C80499F255B4B3C00B3A216 /* Reverse Words in a String III.cpp */; };
+		8C8049A6255B538100B3A216 /* Remove All Adjacent Duplicates In String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8049A5255B538100B3A216 /* Remove All Adjacent Duplicates In String.cpp */; };
+		8C8049A8255B560300B3A216 /* Maximum Depth of Binary Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8049A7255B560300B3A216 /* Maximum Depth of Binary Tree.cpp */; };
 		8CC97EA82518128D00A38A56 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC97EA72518128D00A38A56 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +32,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C804990255AE5F500B3A216 /* 10:11:2020.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "10:11:2020.h"; sourceTree = "<group>"; };
+		8C804991255AE62100B3A216 /* 10-11-2020-1(Maximum Difference Between Node and Ancestor).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10-11-2020-1(Maximum Difference Between Node and Ancestor).cpp"; sourceTree = "<group>"; };
+		8C804995255B23AA00B3A216 /* Kids With the Greatest Number of Candies(1431).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Kids With the Greatest Number of Candies(1431).cpp"; sourceTree = "<group>"; };
+		8C804997255B25AE00B3A216 /* How Many Numbers Are Smaller Than the Current Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "How Many Numbers Are Smaller Than the Current Number.cpp"; sourceTree = "<group>"; };
+		8C804999255B30A700B3A216 /* Split a String in Balanced Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Split a String in Balanced Strings.cpp"; sourceTree = "<group>"; };
+		8C80499B255B349000B3A216 /* Minimum Time Visiting All Points.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Minimum Time Visiting All Points.cpp"; sourceTree = "<group>"; };
+		8C80499D255B487800B3A216 /* Squares of a Sorted Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Squares of a Sorted Array.cpp"; sourceTree = "<group>"; };
+		8C80499F255B4B3C00B3A216 /* Reverse Words in a String III.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reverse Words in a String III.cpp"; sourceTree = "<group>"; };
+		8C8049A5255B538100B3A216 /* Remove All Adjacent Duplicates In String.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Remove All Adjacent Duplicates In String.cpp"; sourceTree = "<group>"; };
+		8C8049A7255B560300B3A216 /* Maximum Depth of Binary Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Maximum Depth of Binary Tree.cpp"; sourceTree = "<group>"; };
 		8CC97EA42518128D00A38A56 /* interviewPractise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = interviewPractise; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC97EA72518128D00A38A56 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +57,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C804994255B233400B3A216 /* Bloomberg Question */ = {
+			isa = PBXGroup;
+			children = (
+				8C8049AA255B579500B3A216 /* EASY */,
+			);
+			path = "Bloomberg Question";
+			sourceTree = "<group>";
+		};
+		8C8049A1255B4B7600B3A216 /* Daily */ = {
+			isa = PBXGroup;
+			children = (
+				8C8049A2255B4BA500B3A216 /* Nov */,
+			);
+			path = Daily;
+			sourceTree = "<group>";
+		};
+		8C8049A2255B4BA500B3A216 /* Nov */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Nov;
+			sourceTree = "<group>";
+		};
+		8C8049A4255B4BC600B3A216 /* C++ Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "C++ Utils";
+			sourceTree = "<group>";
+		};
+		8C8049AA255B579500B3A216 /* EASY */ = {
+			isa = PBXGroup;
+			children = (
+				8C804995255B23AA00B3A216 /* Kids With the Greatest Number of Candies(1431).cpp */,
+				8C804997255B25AE00B3A216 /* How Many Numbers Are Smaller Than the Current Number.cpp */,
+				8C804999255B30A700B3A216 /* Split a String in Balanced Strings.cpp */,
+				8C80499B255B349000B3A216 /* Minimum Time Visiting All Points.cpp */,
+				8C80499D255B487800B3A216 /* Squares of a Sorted Array.cpp */,
+				8C80499F255B4B3C00B3A216 /* Reverse Words in a String III.cpp */,
+				8C8049A5255B538100B3A216 /* Remove All Adjacent Duplicates In String.cpp */,
+				8C8049A7255B560300B3A216 /* Maximum Depth of Binary Tree.cpp */,
+			);
+			path = EASY;
+			sourceTree = "<group>";
+		};
 		8CC97E9B2518128D00A38A56 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +122,11 @@
 			isa = PBXGroup;
 			children = (
 				8CC97EA72518128D00A38A56 /* main.cpp */,
+				8C804990255AE5F500B3A216 /* 10:11:2020.h */,
+				8C804991255AE62100B3A216 /* 10-11-2020-1(Maximum Difference Between Node and Ancestor).cpp */,
+				8C8049A4255B4BC600B3A216 /* C++ Utils */,
+				8C8049A1255B4B7600B3A216 /* Daily */,
+				8C804994255B233400B3A216 /* Bloomberg Question */,
 			);
 			path = interviewPractise;
 			sourceTree = "<group>";
@@ -119,7 +188,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C80499E255B487800B3A216 /* Squares of a Sorted Array.cpp in Sources */,
+				8C804998255B25AE00B3A216 /* How Many Numbers Are Smaller Than the Current Number.cpp in Sources */,
+				8C8049A8255B560300B3A216 /* Maximum Depth of Binary Tree.cpp in Sources */,
+				8C80499A255B30A700B3A216 /* Split a String in Balanced Strings.cpp in Sources */,
+				8C804993255AE62100B3A216 /* 10-11-2020-1(Maximum Difference Between Node and Ancestor).cpp in Sources */,
+				8C80499C255B349000B3A216 /* Minimum Time Visiting All Points.cpp in Sources */,
+				8C8049A0255B4B3C00B3A216 /* Reverse Words in a String III.cpp in Sources */,
 				8CC97EA82518128D00A38A56 /* main.cpp in Sources */,
+				8C8049A6255B538100B3A216 /* Remove All Adjacent Duplicates In String.cpp in Sources */,
+				8C804996255B23AA00B3A216 /* Kids With the Greatest Number of Candies(1431).cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
