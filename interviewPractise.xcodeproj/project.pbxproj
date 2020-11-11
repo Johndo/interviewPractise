@@ -19,6 +19,8 @@
 		8C8049AC255B846400B3A216 /* Minimum Absolute Difference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8049AB255B846400B3A216 /* Minimum Absolute Difference.cpp */; };
 		8C8049AE255B8B2B00B3A216 /* Island Perimeter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8049AD255B8B2B00B3A216 /* Island Perimeter.cpp */; };
 		8C8049B0255B8C0700B3A216 /* Single Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8049AF255B8C0700B3A216 /* Single Number.cpp */; };
+		8C8049B2255B8E7D00B3A216 /* Delete Node in a Linked List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8049B1255B8E7D00B3A216 /* Delete Node in a Linked List.cpp */; };
+		8C8049B4255B93D000B3A216 /* 10_11_2020.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8049B3255B93D000B3A216 /* 10_11_2020.cpp */; };
 		8CC97EA82518128D00A38A56 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC97EA72518128D00A38A56 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,8 @@
 		8C8049AB255B846400B3A216 /* Minimum Absolute Difference.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Minimum Absolute Difference.cpp"; sourceTree = "<group>"; };
 		8C8049AD255B8B2B00B3A216 /* Island Perimeter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Island Perimeter.cpp"; sourceTree = "<group>"; };
 		8C8049AF255B8C0700B3A216 /* Single Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Single Number.cpp"; sourceTree = "<group>"; };
+		8C8049B1255B8E7D00B3A216 /* Delete Node in a Linked List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Delete Node in a Linked List.cpp"; sourceTree = "<group>"; };
+		8C8049B3255B93D000B3A216 /* 10_11_2020.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10_11_2020.cpp; sourceTree = "<group>"; };
 		8CC97EA42518128D00A38A56 /* interviewPractise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = interviewPractise; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC97EA72518128D00A38A56 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +86,7 @@
 		8C8049A2255B4BA500B3A216 /* Nov */ = {
 			isa = PBXGroup;
 			children = (
+				8C8049B3255B93D000B3A216 /* 10_11_2020.cpp */,
 			);
 			path = Nov;
 			sourceTree = "<group>";
@@ -107,6 +112,7 @@
 				8C8049AB255B846400B3A216 /* Minimum Absolute Difference.cpp */,
 				8C8049AD255B8B2B00B3A216 /* Island Perimeter.cpp */,
 				8C8049AF255B8C0700B3A216 /* Single Number.cpp */,
+				8C8049B1255B8E7D00B3A216 /* Delete Node in a Linked List.cpp */,
 			);
 			path = EASY;
 			sourceTree = "<group>";
@@ -205,7 +211,9 @@
 				8C80499A255B30A700B3A216 /* Split a String in Balanced Strings.cpp in Sources */,
 				8C8049AE255B8B2B00B3A216 /* Island Perimeter.cpp in Sources */,
 				8C804993255AE62100B3A216 /* 10-11-2020-1(Maximum Difference Between Node and Ancestor).cpp in Sources */,
+				8C8049B2255B8E7D00B3A216 /* Delete Node in a Linked List.cpp in Sources */,
 				8C80499C255B349000B3A216 /* Minimum Time Visiting All Points.cpp in Sources */,
+				8C8049B4255B93D000B3A216 /* 10_11_2020.cpp in Sources */,
 				8C8049A0255B4B3C00B3A216 /* Reverse Words in a String III.cpp in Sources */,
 				8CC97EA82518128D00A38A56 /* main.cpp in Sources */,
 				8C8049A6255B538100B3A216 /* Remove All Adjacent Duplicates In String.cpp in Sources */,
