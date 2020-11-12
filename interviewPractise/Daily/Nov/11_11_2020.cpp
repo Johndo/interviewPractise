@@ -36,19 +36,19 @@ bool validSquare(vector<int>& p1, vector<int>& p2, vector<int>& p3, vector<int>&
 }
 
 
-int main(int argc, const char* argv[]){
-    vector<int> p1;
-    p1.push_back(1);
-    p1.push_back(0);
-    vector<int> p2;
-    p2.push_back(-1);
-    p2.push_back(0);
-    vector<int> p3;
-    p3.push_back(0);
-    p3.push_back(1);
-    vector<int> p4;
-    p4.push_back(0);
-    p4.push_back(-1);
-
-    return validSquare(p1, p2, p3, p4);
-}
+//int main(int argc, const char* argv[]){
+//    vector<int> p1;
+//    p1.push_back(1);
+//    p1.push_back(0);
+//    vector<int> p2;
+//    p2.push_back(-1);
+//    p2.push_back(0);
+//    vector<int> p3;
+//    p3.push_back(0);
+//    p3.push_back(1);
+//    vector<int> p4;
+//    p4.push_back(0);
+//    p4.push_back(-1);
+//
+//    return validSquare(p1, p2, p3, p4);
+//}
