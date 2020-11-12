@@ -37,6 +37,4 @@ int minTimeToVisitAllPoints(vector<vector<int>>& points) {
 
 
 
-int main(int argc, const char* argv[]){
-    return 0;
-}
+

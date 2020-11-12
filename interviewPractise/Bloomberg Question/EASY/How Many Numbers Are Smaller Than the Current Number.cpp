@@ -29,7 +29,3 @@ vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
 
 
 
-
-int main(int argc, const char* argv[]){
-return 0;
-}

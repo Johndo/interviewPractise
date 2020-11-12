@@ -22,6 +22,3 @@ vector<int> sortedSquares(vector<int>& A) {
 }
 
 
-int main(int argc, const char* argv[]){
-    return 0;
-}

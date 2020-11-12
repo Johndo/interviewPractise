@@ -30,6 +30,4 @@ int balancedStringSplit(string s) {
 
 
 
-int main(int argc, const char* argv[]){
-    
-}
+

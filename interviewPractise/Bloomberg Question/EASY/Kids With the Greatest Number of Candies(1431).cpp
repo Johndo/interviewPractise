@@ -32,8 +32,6 @@ vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
 
 
 
-int main(int argc , const char* argv[]){
-    
-}
+
 
 

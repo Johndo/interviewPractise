@@ -27,7 +27,21 @@ string reverseWords(string s) {
     result.pop_back();
     return result;
 }
-
-int main(int argc, const char* argv[]){
-    return 0;
+string reverseWords_c(string s) {
+    //char s[] = p;
+    if (s.length() < 1){
+        return "";
+    }
+    
+    stringstream sentence(s);
+    string word;
+    string result;
+    
+    while(sentence >> word){
+        reverse(word.begin(),word.end());
+        result +=word+" ";
+    }
+    result.pop_back();
+    return result;
 }
+

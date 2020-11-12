@@ -219,7 +219,7 @@ void fixvector(vector<string> one, vector<string> two){
 
 
 
-int main(int argc, const char * argv[]) {
+/*int main(int argc, const char * argv[]) {
     // insert code here...
     /*
     cout << "Hello, World!\n";
@@ -277,8 +277,7 @@ int main(int argc, const char * argv[]) {
      
      
      
-     */
-    
+     
     string s = "abbcccddddeeeeedcba";
     vector<int>balances= {10, 100, 20, 50, 30};
     vector<string> requests = {"withdraw 2 10","transfer 5 1 20","deposit 5 20","transfer 3 4 15"};
@@ -293,4 +292,4 @@ int main(int argc, const char * argv[]) {
     
     
     return 0;
-}
+}*/

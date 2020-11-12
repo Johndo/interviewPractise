@@ -40,6 +40,4 @@ vector<vector<int>> minimumAbsDifference(vector<int>& arr) {
     }
     return result;
 }
-int main(int argc, const char* argv[]){
-    return 0;
-}
+

@@ -25,7 +25,4 @@ int maxAncestorDiff(TreeNode* root){
 };
 
 
-int main(int argc, const char* argv[]){
-    
-    
-}
+
