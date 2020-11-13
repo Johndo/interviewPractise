@@ -21,6 +21,6 @@ void deleteNode(ListNode* node) {
     node->next = node->next->next;
 }
 
-int main(int argc, const char* argv[]){
-    return 0;
-}
+//int main(int argc, const char* argv[]){
+//    return 0;
+//}
