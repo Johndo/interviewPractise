@@ -19,9 +19,10 @@ void helper(vector<int> ans,vector<int> tmp,vector<vector<int>> &rez ){
         ans.push_back(tmp[i]);
         tmp.erase(tmp.begin() + i);
         if (tmp.size() == 0) {rez.push_back(ans);return;}
-        helper(ans, tmp, rez);
-        tmp.insert(tmp.begin()+i,ans.back());
         
+        helper(ans, tmp, rez);
+        
+        tmp.insert(tmp.begin()+i,ans.back());
         ans.pop_back();
     }
     return;
@@ -32,7 +33,6 @@ vector<vector<int>> permute(vector<int>& nums) {
     helper (ans,nums,rez);
     return rez;
 }
-
 
 
 int main (int argc, const char* argv[]){

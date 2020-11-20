@@ -27,6 +27,8 @@
 		8C8049BD255CD66500B3A216 /* Move Zeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8049BC255CD66500B3A216 /* Move Zeroes.cpp */; };
 		8CA1FEA0255DCA8500234D0E /* 12_11_2020.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA1FE9F255DCA8500234D0E /* 12_11_2020.cpp */; };
 		8CA1FEA2255DEC3800234D0E /* Find All Numbers Disappeared in an Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA1FEA1255DEC3800234D0E /* Find All Numbers Disappeared in an Array.cpp */; };
+		8CA1FEA4256702A600234D0E /* 19_11_2020.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA1FEA3256702A600234D0E /* 19_11_2020.cpp */; };
+		8CA1FEAA2568744F00234D0E /* Jewels and Stones.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA1FEA92568744F00234D0E /* Jewels and Stones.cpp */; };
 		8CC97EA82518128D00A38A56 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC97EA72518128D00A38A56 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,8 @@
 		8C8049BC255CD66500B3A216 /* Move Zeroes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Move Zeroes.cpp"; sourceTree = "<group>"; };
 		8CA1FE9F255DCA8500234D0E /* 12_11_2020.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 12_11_2020.cpp; sourceTree = "<group>"; };
 		8CA1FEA1255DEC3800234D0E /* Find All Numbers Disappeared in an Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Find All Numbers Disappeared in an Array.cpp"; sourceTree = "<group>"; };
+		8CA1FEA3256702A600234D0E /* 19_11_2020.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 19_11_2020.cpp; sourceTree = "<group>"; };
+		8CA1FEA92568744F00234D0E /* Jewels and Stones.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Jewels and Stones.cpp"; sourceTree = "<group>"; };
 		8CC97EA42518128D00A38A56 /* interviewPractise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = interviewPractise; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC97EA72518128D00A38A56 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +105,7 @@
 				8C8049B3255B93D000B3A216 /* 10_11_2020.cpp */,
 				8C8049B6255CB25400B3A216 /* 11_11_2020.cpp */,
 				8CA1FE9F255DCA8500234D0E /* 12_11_2020.cpp */,
+				8CA1FEA3256702A600234D0E /* 19_11_2020.cpp */,
 			);
 			path = Nov;
 			sourceTree = "<group>";
@@ -142,6 +147,29 @@
 			path = "Bash Utils";
 			sourceTree = "<group>";
 		};
+		8CA1FEA6256708F100234D0E /* Apple Question */ = {
+			isa = PBXGroup;
+			children = (
+				8CA1FEA8256871D400234D0E /* EASY */,
+			);
+			path = "Apple Question";
+			sourceTree = "<group>";
+		};
+		8CA1FEA72567091300234D0E /* General Questions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "General Questions";
+			sourceTree = "<group>";
+		};
+		8CA1FEA8256871D400234D0E /* EASY */ = {
+			isa = PBXGroup;
+			children = (
+				8CA1FEA92568744F00234D0E /* Jewels and Stones.cpp */,
+			);
+			path = EASY;
+			sourceTree = "<group>";
+		};
 		8CC97E9B2518128D00A38A56 = {
 			isa = PBXGroup;
 			children = (
@@ -161,12 +189,14 @@
 		8CC97EA62518128D00A38A56 /* interviewPractise */ = {
 			isa = PBXGroup;
 			children = (
+				8CA1FEA72567091300234D0E /* General Questions */,
 				8CC97EA72518128D00A38A56 /* main.cpp */,
 				8C8049B5255BADF300B3A216 /* Bash Utils */,
 				8C804990255AE5F500B3A216 /* 10:11:2020.h */,
 				8C804991255AE62100B3A216 /* 10-11-2020-1(Maximum Difference Between Node and Ancestor).cpp */,
 				8C8049A4255B4BC600B3A216 /* C++ Utils */,
 				8C8049A1255B4B7600B3A216 /* Daily */,
+				8CA1FEA6256708F100234D0E /* Apple Question */,
 				8C804994255B233400B3A216 /* Bloomberg Question */,
 			);
 			path = interviewPractise;
@@ -244,10 +274,12 @@
 				8C8049B2255B8E7D00B3A216 /* Delete Node in a Linked List.cpp in Sources */,
 				8C80499C255B349000B3A216 /* Minimum Time Visiting All Points.cpp in Sources */,
 				8C8049B4255B93D000B3A216 /* 10_11_2020.cpp in Sources */,
+				8CA1FEA4256702A600234D0E /* 19_11_2020.cpp in Sources */,
 				8CA1FEA0255DCA8500234D0E /* 12_11_2020.cpp in Sources */,
 				8C8049BD255CD66500B3A216 /* Move Zeroes.cpp in Sources */,
 				8C8049A0255B4B3C00B3A216 /* Reverse Words in a String III.cpp in Sources */,
 				8CC97EA82518128D00A38A56 /* main.cpp in Sources */,
+				8CA1FEAA2568744F00234D0E /* Jewels and Stones.cpp in Sources */,
 				8C8049A6255B538100B3A216 /* Remove All Adjacent Duplicates In String.cpp in Sources */,
 				8C804996255B23AA00B3A216 /* Kids With the Greatest Number of Candies(1431).cpp in Sources */,
 			);
