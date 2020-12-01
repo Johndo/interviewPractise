@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C536DCE25745DFC0008C869 /* Decompress Run-Length Encoded List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C536DCD25745DFC0008C869 /* Decompress Run-Length Encoded List.cpp */; };
+		8C536DD025746FE00008C869 /* Range Sum of BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C536DCF25746FE00008C869 /* Range Sum of BST.cpp */; };
+		8C536DD22574732F0008C869 /* Sort Array By Parity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C536DD12574732F0008C869 /* Sort Array By Parity.cpp */; };
+		8C536DD4257480A70008C869 /* Merge Two Binary Trees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C536DD3257480A70008C869 /* Merge Two Binary Trees.cpp */; };
+		8C536DD7257575110008C869 /* Best Time to Buy and Sell Stock II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C536DD6257575110008C869 /* Best Time to Buy and Sell Stock II.cpp */; };
+		8C536DD9257577AC0008C869 /* Binary Search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C536DD8257577AC0008C869 /* Binary Search.cpp */; };
+		8C536DDB257581CA0008C869 /* Nim Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C536DDA257581CA0008C869 /* Nim Game.cpp */; };
 		8C804993255AE62100B3A216 /* 10-11-2020-1(Maximum Difference Between Node and Ancestor).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C804991255AE62100B3A216 /* 10-11-2020-1(Maximum Difference Between Node and Ancestor).cpp */; };
 		8C804996255B23AA00B3A216 /* Kids With the Greatest Number of Candies(1431).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C804995255B23AA00B3A216 /* Kids With the Greatest Number of Candies(1431).cpp */; };
 		8C804998255B25AE00B3A216 /* How Many Numbers Are Smaller Than the Current Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C804997255B25AE00B3A216 /* How Many Numbers Are Smaller Than the Current Number.cpp */; };
@@ -45,6 +52,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C536DCD25745DFC0008C869 /* Decompress Run-Length Encoded List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Decompress Run-Length Encoded List.cpp"; sourceTree = "<group>"; };
+		8C536DCF25746FE00008C869 /* Range Sum of BST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Range Sum of BST.cpp"; sourceTree = "<group>"; };
+		8C536DD12574732F0008C869 /* Sort Array By Parity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sort Array By Parity.cpp"; sourceTree = "<group>"; };
+		8C536DD3257480A70008C869 /* Merge Two Binary Trees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Merge Two Binary Trees.cpp"; sourceTree = "<group>"; };
+		8C536DD6257575110008C869 /* Best Time to Buy and Sell Stock II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Best Time to Buy and Sell Stock II.cpp"; sourceTree = "<group>"; };
+		8C536DD8257577AC0008C869 /* Binary Search.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Binary Search.cpp"; sourceTree = "<group>"; };
+		8C536DDA257581CA0008C869 /* Nim Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Nim Game.cpp"; sourceTree = "<group>"; };
 		8C804990255AE5F500B3A216 /* 10:11:2020.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "10:11:2020.h"; sourceTree = "<group>"; };
 		8C804991255AE62100B3A216 /* 10-11-2020-1(Maximum Difference Between Node and Ancestor).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10-11-2020-1(Maximum Difference Between Node and Ancestor).cpp"; sourceTree = "<group>"; };
 		8C804995255B23AA00B3A216 /* Kids With the Greatest Number of Candies(1431).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Kids With the Greatest Number of Candies(1431).cpp"; sourceTree = "<group>"; };
@@ -83,9 +97,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C536DD5257570DE0008C869 /* Interview Questions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Interview Questions";
+			sourceTree = "<group>";
+		};
 		8C804994255B233400B3A216 /* Bloomberg Question */ = {
 			isa = PBXGroup;
 			children = (
+				8C536DD5257570DE0008C869 /* Interview Questions */,
 				8C8049AA255B579500B3A216 /* EASY */,
 			);
 			path = "Bloomberg Question";
@@ -136,6 +158,9 @@
 				8C8049BA255CD1D600B3A216 /* Fizz Buzz.cpp */,
 				8C8049B8255CCA0E00B3A216 /* Reverse Linked List.cpp */,
 				8CA1FEA1255DEC3800234D0E /* Find All Numbers Disappeared in an Array.cpp */,
+				8C536DD6257575110008C869 /* Best Time to Buy and Sell Stock II.cpp */,
+				8C536DD8257577AC0008C869 /* Binary Search.cpp */,
+				8C536DDA257581CA0008C869 /* Nim Game.cpp */,
 			);
 			path = EASY;
 			sourceTree = "<group>";
@@ -166,6 +191,10 @@
 			isa = PBXGroup;
 			children = (
 				8CA1FEA92568744F00234D0E /* Jewels and Stones.cpp */,
+				8C536DCD25745DFC0008C869 /* Decompress Run-Length Encoded List.cpp */,
+				8C536DCF25746FE00008C869 /* Range Sum of BST.cpp */,
+				8C536DD12574732F0008C869 /* Sort Array By Parity.cpp */,
+				8C536DD3257480A70008C869 /* Merge Two Binary Trees.cpp */,
 			);
 			path = EASY;
 			sourceTree = "<group>";
@@ -263,18 +292,25 @@
 				8C8049B0255B8C0700B3A216 /* Single Number.cpp in Sources */,
 				8C804998255B25AE00B3A216 /* How Many Numbers Are Smaller Than the Current Number.cpp in Sources */,
 				8C8049A8255B560300B3A216 /* Maximum Depth of Binary Tree.cpp in Sources */,
+				8C536DD7257575110008C869 /* Best Time to Buy and Sell Stock II.cpp in Sources */,
 				8C8049BB255CD1D600B3A216 /* Fizz Buzz.cpp in Sources */,
 				8C8049AC255B846400B3A216 /* Minimum Absolute Difference.cpp in Sources */,
 				8C8049B7255CB25400B3A216 /* 11_11_2020.cpp in Sources */,
 				8C80499A255B30A700B3A216 /* Split a String in Balanced Strings.cpp in Sources */,
 				8C8049B9255CCA0E00B3A216 /* Reverse Linked List.cpp in Sources */,
 				8C8049AE255B8B2B00B3A216 /* Island Perimeter.cpp in Sources */,
+				8C536DD025746FE00008C869 /* Range Sum of BST.cpp in Sources */,
 				8CA1FEA2255DEC3800234D0E /* Find All Numbers Disappeared in an Array.cpp in Sources */,
+				8C536DD22574732F0008C869 /* Sort Array By Parity.cpp in Sources */,
 				8C804993255AE62100B3A216 /* 10-11-2020-1(Maximum Difference Between Node and Ancestor).cpp in Sources */,
+				8C536DD4257480A70008C869 /* Merge Two Binary Trees.cpp in Sources */,
 				8C8049B2255B8E7D00B3A216 /* Delete Node in a Linked List.cpp in Sources */,
 				8C80499C255B349000B3A216 /* Minimum Time Visiting All Points.cpp in Sources */,
+				8C536DCE25745DFC0008C869 /* Decompress Run-Length Encoded List.cpp in Sources */,
+				8C536DDB257581CA0008C869 /* Nim Game.cpp in Sources */,
 				8C8049B4255B93D000B3A216 /* 10_11_2020.cpp in Sources */,
 				8CA1FEA4256702A600234D0E /* 19_11_2020.cpp in Sources */,
+				8C536DD9257577AC0008C869 /* Binary Search.cpp in Sources */,
 				8CA1FEA0255DCA8500234D0E /* 12_11_2020.cpp in Sources */,
 				8C8049BD255CD66500B3A216 /* Move Zeroes.cpp in Sources */,
 				8C8049A0255B4B3C00B3A216 /* Reverse Words in a String III.cpp in Sources */,

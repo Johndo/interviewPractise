@@ -22,10 +22,13 @@ vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
         val_idx.insert(std::make_pair(copy[i],i));}
     
     for(int i = 0; i < nums.size(); i++){
-        result[i]=val_idx[nums[i]];}
+        result[i]=val_idx[nums[i]];
+        
+    }
     
     return result;
 }
+
 
 
 
