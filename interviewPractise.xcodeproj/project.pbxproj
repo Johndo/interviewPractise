@@ -37,6 +37,12 @@
 		8CA1FEA4256702A600234D0E /* 19_11_2020.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA1FEA3256702A600234D0E /* 19_11_2020.cpp */; };
 		8CA1FEAA2568744F00234D0E /* Jewels and Stones.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA1FEA92568744F00234D0E /* Jewels and Stones.cpp */; };
 		8CC97EA82518128D00A38A56 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC97EA72518128D00A38A56 /* main.cpp */; };
+		8CF323F82581D4C2001CD05F /* Valid Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF323F72581D4C2001CD05F /* Valid Parentheses.cpp */; };
+		8CF323FA258289BD001CD05F /* Priority Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF323F9258289BD001CD05F /* Priority Queue.cpp */; };
+		8CF323FC25830C94001CD05F /* Return index of taregt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF323FB25830C94001CD05F /* Return index of taregt.cpp */; };
+		8CF323FF258835AA001CD05F /* Question1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF323FD258835AA001CD05F /* Question1.cpp */; };
+		8CF32401258912F6001CD05F /* Question2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF32400258912F6001CD05F /* Question2.cpp */; };
+		8CF3240325895CEC001CD05F /* Question3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF3240225895CEC001CD05F /* Question3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -84,6 +90,12 @@
 		8CA1FEA92568744F00234D0E /* Jewels and Stones.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Jewels and Stones.cpp"; sourceTree = "<group>"; };
 		8CC97EA42518128D00A38A56 /* interviewPractise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = interviewPractise; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC97EA72518128D00A38A56 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CF323F72581D4C2001CD05F /* Valid Parentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Valid Parentheses.cpp"; sourceTree = "<group>"; };
+		8CF323F9258289BD001CD05F /* Priority Queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Priority Queue.cpp"; sourceTree = "<group>"; };
+		8CF323FB25830C94001CD05F /* Return index of taregt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Return index of taregt.cpp"; sourceTree = "<group>"; };
+		8CF323FD258835AA001CD05F /* Question1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Question1.cpp; sourceTree = "<group>"; };
+		8CF32400258912F6001CD05F /* Question2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Question2.cpp; sourceTree = "<group>"; };
+		8CF3240225895CEC001CD05F /* Question3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Question3.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,9 @@
 		8C536DD5257570DE0008C869 /* Interview Questions */ = {
 			isa = PBXGroup;
 			children = (
+				8CF323FD258835AA001CD05F /* Question1.cpp */,
+				8CF32400258912F6001CD05F /* Question2.cpp */,
+				8CF3240225895CEC001CD05F /* Question3.cpp */,
 			);
 			path = "Interview Questions";
 			sourceTree = "<group>";
@@ -135,6 +150,7 @@
 		8C8049A4255B4BC600B3A216 /* C++ Utils */ = {
 			isa = PBXGroup;
 			children = (
+				8CF323F9258289BD001CD05F /* Priority Queue.cpp */,
 			);
 			path = "C++ Utils";
 			sourceTree = "<group>";
@@ -161,6 +177,7 @@
 				8C536DD6257575110008C869 /* Best Time to Buy and Sell Stock II.cpp */,
 				8C536DD8257577AC0008C869 /* Binary Search.cpp */,
 				8C536DDA257581CA0008C869 /* Nim Game.cpp */,
+				8CF323F72581D4C2001CD05F /* Valid Parentheses.cpp */,
 			);
 			path = EASY;
 			sourceTree = "<group>";
@@ -183,6 +200,7 @@
 		8CA1FEA72567091300234D0E /* General Questions */ = {
 			isa = PBXGroup;
 			children = (
+				8CF323FB25830C94001CD05F /* Return index of taregt.cpp */,
 			);
 			path = "General Questions";
 			sourceTree = "<group>";
@@ -294,16 +312,22 @@
 				8C8049A8255B560300B3A216 /* Maximum Depth of Binary Tree.cpp in Sources */,
 				8C536DD7257575110008C869 /* Best Time to Buy and Sell Stock II.cpp in Sources */,
 				8C8049BB255CD1D600B3A216 /* Fizz Buzz.cpp in Sources */,
+				8CF323FC25830C94001CD05F /* Return index of taregt.cpp in Sources */,
 				8C8049AC255B846400B3A216 /* Minimum Absolute Difference.cpp in Sources */,
 				8C8049B7255CB25400B3A216 /* 11_11_2020.cpp in Sources */,
+				8CF3240325895CEC001CD05F /* Question3.cpp in Sources */,
 				8C80499A255B30A700B3A216 /* Split a String in Balanced Strings.cpp in Sources */,
 				8C8049B9255CCA0E00B3A216 /* Reverse Linked List.cpp in Sources */,
+				8CF323FA258289BD001CD05F /* Priority Queue.cpp in Sources */,
 				8C8049AE255B8B2B00B3A216 /* Island Perimeter.cpp in Sources */,
 				8C536DD025746FE00008C869 /* Range Sum of BST.cpp in Sources */,
+				8CF323F82581D4C2001CD05F /* Valid Parentheses.cpp in Sources */,
 				8CA1FEA2255DEC3800234D0E /* Find All Numbers Disappeared in an Array.cpp in Sources */,
 				8C536DD22574732F0008C869 /* Sort Array By Parity.cpp in Sources */,
 				8C804993255AE62100B3A216 /* 10-11-2020-1(Maximum Difference Between Node and Ancestor).cpp in Sources */,
+				8CF32401258912F6001CD05F /* Question2.cpp in Sources */,
 				8C536DD4257480A70008C869 /* Merge Two Binary Trees.cpp in Sources */,
+				8CF323FF258835AA001CD05F /* Question1.cpp in Sources */,
 				8C8049B2255B8E7D00B3A216 /* Delete Node in a Linked List.cpp in Sources */,
 				8C80499C255B349000B3A216 /* Minimum Time Visiting All Points.cpp in Sources */,
 				8C536DCE25745DFC0008C869 /* Decompress Run-Length Encoded List.cpp in Sources */,

@@ -20,13 +20,11 @@ string removeDuplicates(string S) {
            S.erase(curr_idx, 2);
            curr_idx = 0;
            rmv = true;
-           
        }else{
            curr_idx+=1;
+           
        }
-       if(curr_idx == S.size()){
-           rmv = false;
-       }
+       if(curr_idx == S.size()){rmv = false;}
    }
    return S;
 }

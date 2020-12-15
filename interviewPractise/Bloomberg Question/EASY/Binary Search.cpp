@@ -19,3 +19,19 @@ int search(vector<int>& nums, int target) {
     }
     return -1;
 }
+
+int b_search(vector<int>& nums, int target) {
+    int p, l=0,r=(int)nums.size()-1;
+    while(l<=r){
+        p= l+(r-l)/2;
+        if(nums[p] == target){
+            return p;
+        }
+        if(target < nums[p]){
+            r=p-1;
+        }else{
+            l=p+1;
+        }
+    }
+    return -1;
+}

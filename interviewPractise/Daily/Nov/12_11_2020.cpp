@@ -35,11 +35,11 @@ vector<vector<int>> permute(vector<int>& nums) {
 }
 
 
-int main (int argc, const char* argv[]){
-    vector<int> nums;
-    nums.push_back(1);
-    nums.push_back(1);
-    nums.push_back(2);
-    
-    vector<vector<int>> result = permute(nums);
-}
+//int main (int argc, const char* argv[]){
+//    vector<int> nums;
+//    nums.push_back(1);
+//    nums.push_back(1);
+//    nums.push_back(2);
+//
+//    vector<vector<int>> result = permute(nums);
+//}
